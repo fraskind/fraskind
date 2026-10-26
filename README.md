@@ -31,5 +31,10 @@ Find me on
 ✎  [goodreads](https://www.goodreads.com/user/show/182984857-fanny)
 <!--  [substack] -->
 
+
+✦ currently reading
+<!-- GOODREADS:START -->
+<!-- GOODREADS:END -->
+
 go blue! ⋆˙⟡ 𝙼   
 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 
