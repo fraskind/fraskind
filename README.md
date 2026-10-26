@@ -34,6 +34,7 @@ Find me on
 
 ✦ currently reading
 <!-- GOODREADS:START -->
+<table><tr><td align="center" valign="top" width="140"><a href="https://www.goodreads.com/book/show/242512679"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1763708631l/242512679._SX98_.jpg" width="100" alt="Depraved: The Story of Dangerous Art"></a><br><a href="https://www.goodreads.com/book/show/242512679"><b>Depraved: The Story of Dangerous Art</b></a><br><sub>Daisy  Dixon</sub></td><td align="center" valign="top" width="140"><a href="https://www.goodreads.com/book/show/43064139"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544534801l/43064139._SX98_.jpg" width="100" alt="Everything Inside"></a><br><a href="https://www.goodreads.com/book/show/43064139"><b>Everything Inside</b></a><br><sub>Edwidge Danticat</sub></td></tr></table>
 <!-- GOODREADS:END -->
 
 go blue! ⋆˙⟡ 𝙼   
