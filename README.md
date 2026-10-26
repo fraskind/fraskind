@@ -1,5 +1,7 @@
-## Hi! I'm Fanny ("FAW-nee")
+<h2> hi! i'm fanny ❛ᶠᴬᵂ⁻ⁿᵉᵉ❜</h2>
 
+A full-stack developer by day ☼ and creative by night ☾   
+new grad with an ambition to learn :)
 <!--
 **fraskind/fraskind** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,5 +16,20 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Currently a Software Engineer at Verkada in the San Fransisco Bay Area, CA (on-site)
-- Fullstack Development
+full-stack developer at [verkada](https://www.verkada.com/) (alarms)  
+  ⚲ san francisco bay area, california (on-site)
+
+* ⚙️ I use daily:
+  * BE: `.proto`, `.go`, `.sql`, `.bazel`, `.yaml`
+  * FE: `.ts`, `.tsx`, `.yml`
+* 💬 ping me about design, film, guitar, fitness, reading, branding
+  
+Find me on  
+❛❜  [email](fanny.raskind@gmail.com)  
+⫘  [linkedin](https://www.linkedin.com/in/fanny-raskind)  
+꩜  [letterboxd](https://letterboxd.com/fannyraskind)  
+✎  [goodreads](https://www.goodreads.com/user/show/182984857-fanny)
+<!--  [substack] -->
+
+go blue! ⋆˙⟡ 𝙼   
+𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 
