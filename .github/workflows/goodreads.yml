@@ -1,0 +1,46 @@
+name: Update Goodreads currently reading
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README from Goodreads RSS
+        env:
+          GOODREADS_RSS_URL: ${{ secrets.GOODREADS_RSS_URL }}
+        run: |
+          python3 - <<'EOF'
+          import os, re, html, urllib.request
+          import xml.etree.ElementTree as ET
+          req = urllib.request.Request(os.environ["GOODREADS_RSS_URL"], headers={"User-Agent": "Mozilla/5.0"})
+          root = ET.fromstring(urllib.request.urlopen(req).read())
+          cells = []
+          for item in root.iter("item"):
+              title = (item.findtext("title") or "").strip()
+              author = (item.findtext("author_name") or "").strip()
+              cover = (item.findtext("book_medium_image_url") or item.findtext("book_image_url") or "").strip()
+              book_id = (item.findtext("book_id") or "").strip()
+              link = f"https://www.goodreads.com/book/show/{book_id}"
+              cells.append(
+                  f'<td align="center" valign="top" width="140">'
+                  f'<a href="{link}"><img src="{html.escape(cover)}" width="100" alt="{html.escape(title)}"></a><br>'
+                  f'<a href="{link}"><b>{html.escape(title)}</b></a><br>'
+                  f'<sub>{html.escape(author)}</sub></td>'
+              )
+          block = "<table><tr>" + "".join(cells) + "</tr></table>" if cells else "_nothing right now, between books_"
+          text = open("README.md", encoding="utf-8").read()
+          new = re.sub(r"(<!-- GOODREADS:START -->).*?(<!-- GOODREADS:END -->)", lambda m: m.group(1) + chr(10) + block + chr(10) + m.group(2), text, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(new)
+          EOF
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update currently reading"
+          git push
