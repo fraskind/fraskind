@@ -4,7 +4,7 @@ find me on
 ❛❜  [email](fanny.raskind@gmail.com) | ⫘  [linkedin](https://www.linkedin.com/in/fanny-raskind) | ꩜  [letterboxd](https://letterboxd.com/fannyraskind) | ✎  [goodreads](https://www.goodreads.com/user/show/182984857-fanny)
 <!--  [substack] -->
 
-A full-stack developer by day ☼ and creative by night ☾   
+a full-stack developer by day ☼ and creative by night ☾   
 new grad with an ambition to learn :)
 <!--
 **fraskind/fraskind** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
