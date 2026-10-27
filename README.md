@@ -24,8 +24,8 @@ full-stack developer at [verkada](https://www.verkada.com/), alarms team
   ⚲ san francisco bay area, california (on-site)
 
 * ⚙️ I use daily:
-  * BE: `.proto`, `.go`, `.sql`, `.bazel`, `.yaml`
-  * FE: `.ts`, `.tsx`, `.yml`
+  * BE: `.proto`, `.go`, `.sql`, `.bazel`, `.yaml`, `.py`
+  * FE: `.ts`, `.tsx`, `.html`, `.css`
 * 💬 ping me about design, film, guitar, fitness, reading, branding
   
 ✦ currently reading
