@@ -1,7 +1,7 @@
 <h2> hi! i'm fanny ❛ᶠᴬᵂ⁻ⁿᵉᵉ❜</h2>
-
+fanny.raskind@gmail.com  
 find me on  
-❛❜  [email](fanny.raskind@gmail.com) | ⫘  [linkedin](https://www.linkedin.com/in/fanny-raskind) | ꩜  [letterboxd](https://letterboxd.com/fannyraskind) | ✎  [goodreads](https://www.goodreads.com/user/show/182984857-fanny)
+⫘  [linkedin](https://www.linkedin.com/in/fanny-raskind) | ꩜  [letterboxd](https://letterboxd.com/fannyraskind) | ✎  [goodreads](https://www.goodreads.com/user/show/182984857-fanny)
 <!--  [substack] -->
 
 a full-stack developer by day ☼ and creative by night ☾   
